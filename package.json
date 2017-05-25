@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "WK14 assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwwilsonclt/burger.git"
+  },
+  "keywords": [
+    "eat",
+    "the",
+    "burger"
+  ],
+  "author": "Software by Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwwilsonclt/burger/issues"
+  },
+  "homepage": "https://github.com/dwwilsonclt/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
+  }
+}
