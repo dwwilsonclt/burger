@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 
 // var port = 3000;
-var port = process.env.PORT || 1337;
+// var port = process.env.PORT || 1337;
 var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
@@ -25,4 +25,5 @@ var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 console.log("listening on port %s",port)
-app.listen(port);
+app.listen(process.env.PORT || 3000)
+// app.listen(port);
